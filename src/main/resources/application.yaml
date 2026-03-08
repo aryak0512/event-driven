@@ -1,3 +1,3 @@
 spring:
-  application:
-    name: event-driven
+  config:
+    import: ${section}/${name}.yaml
